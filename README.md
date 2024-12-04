@@ -1,2 +1,2 @@
 # 10x
-first homework for 10x
+ homeworks for 10x
