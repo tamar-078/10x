@@ -1,0 +1,82 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Practice</title>
+</head>
+<style>
+    aside{
+        width: 40;
+        background-color: black;
+        font-style: normal;
+        text-align: center;
+
+    }
+</style>
+<body>
+    <header>
+        <!--Header defines document-section hat-->
+        <a href="home" class="logo-wrapper">
+            <img src="https://www.logo.wine/a/logo/Stradivarius_(clothing_brand)/Stradivarius_(clothing_brand)-Logo.wine.svg" alt="" class="logo-img
+        ">
+        </a>
+        <h1>Stradivarius</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li class="nav-item">Home</li>
+                    <li class="nav-item">About</li>
+                    <li class="nav-item">Contact</li>
+                
+                </ul>
+            </nav>
+    
+        <div class="header-cta-wrapper">
+            <!--login icon-->
+            <a href="#"><img src="https://pngtree.com/freepng/avatar-icon-profile-icon-member-login-vector-isolated_5247852.html" alt="login-icon"></a>
+        </div>
+
+        
+
+      
+    </header>
+    <main>
+        <section>
+            <article>
+                <!--Header 2-->
+                <h2>ბლექ ფრაიდეი</h2>
+                <p>Lorem ipsum dolor &trade; sit amet &euro; consectetur adipisicing elit. Iusto, saepe?
+                    <br> Omnis minima qui sit Neque maiores, <strong>amet tempora rem consequatur maxime necessitatibus <em>amet tempora rem consequatur maxime</em> amet tempora rem consequatur maxime necessitatibus </strong> molestias exercitationem, aspernatur nostrum accusantium nihil asperiores!</p>
+                    <figure>
+                        <img src="https://static.e-stradivarius.net/5/static2/itxwebstandard/images/menu/banner/destacados_2024/destacado_N1_diciembre_2024.jpg?20241209031201" alt="" width="500"> 
+                        <pigcaption>Colaboration with Zara</pigcaption>
+                     
+                    </figure>
+                    
+            </article>
+            <ol>
+                <li>hat</li>
+                <li>trousers</li>
+                <time datetime="datetime">09.12.2024 Monday</time>
+            </ol>
+        </section>
+        <aside>
+            <!--Header 3-->
+            <h3>jacket</h3>
+            <p>Lorem ipsum dolor, <a href="https://static.e-stradivarius.net/5/static2/itxwebstandard/images/visual_filters/1020192003.jpg?20241209031201=&imwidth=128&impolicy=stradivarius-itxmediumhigh&imformat=chrome&imdensity=1.5"target="clothing_brand">strada</a> amet consectetur adipisicing elit. Ratione exercitationem accusamus voluptate <span style="color: black;"></span>architecto facere dolore
+            harum expedita minus sit repellendus placeat ut. Qui animi ab deleniti vel? Eos, deleniti.</p>
+        </aside>
+        <section>
+</section>
+    </main>
+<footer>
+        <p>&copy;StradawithZara Winter Collection</p>
+        <address>
+            <a href="Stradivarius099@gmail.com">contact</a>
+        </address>
+            
+    </footer>
+
+   
+</body>
+</html>
