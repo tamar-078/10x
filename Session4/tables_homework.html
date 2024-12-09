@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables_</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width:100%
+            height:10px
+            max-content
+        }
+        th, td {
+
+            border: 1px solid black;
+            padding: 8px;
+            background-color: #f9f9f9;
+            text-align: center;
+
+        }
+        th {
+            background-color: blueviolet;
+        }
+    </style>
+
+</head>
+
+<body>
+    <table>
+        <!--caption defines our table purpose, Basic table creation-->
+        <caption>List of Participants</caption>
+        <thead>
+            <tr>
+                <th scope="horizon">Name</th>
+                <th scope="horizon">Age</th>
+                <th scope="horizon">Email</th>
+    
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+                <td>Lora</td>
+                <td>25</td>
+                <td>lor099@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Rusa</td>
+                <td>26</td>
+                <td>r.koch1999@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Any</td>
+                <td>20</td>
+                <td>a.amber@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Tony</td>
+                <td>28</td>
+                <td>t.camb9@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Nino</td>
+                <td>42</td>
+                <td>nini099@gmail.com</td>
+            </tr>
+
+         </tbody>
+
+    </table>
+    <!--Colspan and Rowspan-->
+    <table>
+        <caption>weekly schedule</caption>
+        <thead>
+            <tr>
+                <th scope="date/time">time/date</th>
+                <th scope="Horizontal">Monday</th>
+                <th scope="Horizontal">Tuersday</th>
+                <th scope="Horizontal">Wednesday</th>
+                <th scope="Horizontal">Thursday</th>
+                <th scope="Horizontal">Friday</th>
+                <th scope="Horizontal">Saturday</th>
+                <th scope="Horizontal">Sunday</th>
+
+            </tr>
+         </thead>
+        <tbody>
+           
+                <tr>
+                    <td scope="">Morning</td>
+                    <td colspan="7">Yoga Class</td>
+                    
+            
+                    </tr>
+                    <tr>
+                        <td scope="row">Afternoon</td>
+                        <td colspan="3">Team Meeting</td>
+                        <td>arcitecture</td>
+                        <td rowspan="4">performance</td>
+                        <td colspan="2">reading</td>
+
+                    </tr>
+                    <tr>
+                        <td scope="row">Evning</td>
+                        <td>diner</td>
+                        <td>languages</td>
+                        <td rowspan="1">meditation</td>
+                        <td rowspan="2">arcitecure</td>
+                        <td colspan="2">sleep</td>
+                
+                        
+                    </tr>
+                </tr>    
+
+                    
+
+
+           
+        </tbody>
+    </table>
+    <!--Table sectioning with <thead>,<tbody>, <tfoot>-->
+        <table>
+            <thead>
+                <caption>shopping cart</caption>
+            
+                <tr>
+                    <th id="item">Item name</th>
+                    <th id="quantity">Quantity</th>
+                    <th id="price">Price</th>
+                    <th id="total price">Total Price</th>
+                </tr>
+
+            </thead>
+           
+            
+            <tbody>
+                <tr>
+                <td headers="item"></th>
+                <td headers="quantity"></td>
+                <td headers="price"></td>
+                <td headers="total price"></td>
+                
+            
+                
+                </tr>
+                <tr>
+                    <td headers="item">Ipad</th>
+                        <td headers="quantity">3</td>
+                        <td headers="price">$3000</td>
+                        <td headers="total price">$9000</td>
+                </tr>
+                <tr>
+                    <td headers="item">Microphone</th>
+                        <td headers="quantity">2</td>
+                        <td headers="price">$40</td>
+                        <td headers="total price">$80</td>
+                </tr>
+                <tr>
+                    <td headers="item">High heels</th>
+                        <td headers="quantity">3</td>
+                        <td headers="price">$100</td>
+                        <td headers="total price">$300</td>
+                </tr>
+                <tr>
+                    <td headers="item">broom</th>
+                        <td headers="quantity">5</td>
+                        <td headers="price">$10</td>
+                        <td headers="total price">$50</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>$9430</td>
+                </tr>
+            </tfoot>
+        
+        </table>
+        <!--BonuS Task-->
+        <table>
+            <caption>Calendar Table</caption>
+            <header>
+                <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+                </tr>
+            </header>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        
+                    </tr>
+            </tbody>
+                
+            </header>
+                
+        </table>
+</body>
+
+</html>
